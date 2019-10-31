@@ -1,0 +1,114 @@
+:root{
+    --light-color: #e22cd7;
+    --dark-color: #ffffff;
+    --dadark-color: #ff78ae;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-container{
+    background: linear-gradient(to bottom, var(--dark-color),var(--light-color));
+    height: 450px;
+}
+.top-wrapper{
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.cloud{
+    position: absolute;
+}
+.mountain{
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+.cloud1{
+    left:17%;
+    top:40%;
+}
+.cloud2{
+    left:67%;
+    top:50%;
+}
+.p{
+    text-decoration: underline;
+    font-family: 'Source Serif Pro', serif;
+    
+}
+.profile_image{
+    width: 100px;
+}
+.profile{
+    width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.underlined{
+    text-decoration: underline;
+}
+.middle-container{
+    width: 800px;
+    margin: 2rem auto;
+}
+.skills img{
+    width: 100px;
+}
+.img-skill1{
+    float: left;
+    margin-right: 2rem;
+    margin-top: 1rem; 
+}
+
+.img-skill2{
+    float: right;
+    margin-left: 2rem;
+    margin-top: 2rem;  
+}
+.contact-me{
+    text-align: center;
+}
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background:linear-gradient(to bottom, #d617b0 5%, #ef027d 100%);
+	background-color:#d617b0;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:13px 26px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #c70067;
+    margin: 1rem;
+    display: inline block;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #ef027d 5%, #d617b0 100%);
+	background-color:#ef027d;
+}
+.btn:active {
+	position:relative;
+}	
+.bottom-container{
+    background-color: var(--light-color);
+    padding: 2rem 0;
+    text-align: center;
+}
+.bottom-container a{
+    display: inline-block;
+    text-decoration: none;
+    margin:  1.5rem 1.5rem;
+    color: (rgb(129,83,83));
+}
+.bottom-container a:hover{
+    color: var(--dark-color);
+}
